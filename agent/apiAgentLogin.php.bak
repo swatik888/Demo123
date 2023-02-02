@@ -17,7 +17,7 @@ if($retVal==1){
 	$decodedJSON1 = json_decode($retVal1);
 	$agent_id = $decodedJSON1->response[0]->id;
 	$status = $decodedJSON1->response[1]->status;
-	//testing
+	
 	 /*  if($Type==$settingValueType){		  */
 		if($status=="On")
 		{
