@@ -3,7 +3,7 @@
 include("function.php");
 $sign=new Signup();
 include_once("commonFunctions.php");
-//demo
+//demoo
 $commonfunction=new Common();
 $AgentImagePathVerification= $commonfunction->getSettingValue("AgentImagePathVerification");
 $query=$_POST["valquery"];
