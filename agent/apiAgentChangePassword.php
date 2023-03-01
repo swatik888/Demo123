@@ -11,7 +11,7 @@ session_start();
     $OldPassword = md5($_POST['oldpswd']);
 	$NewPassword = md5($_POST['newpswd']);
 	$username = md5($_SESSION["agent_id"]);
-	//demo
+	//demoq1
     $settingValueMailPath = $commonfunction->getSettingValue("MailPath");
 	
 	$settingValuePemail= $commonfunction->getSettingValue("Primary Email");
